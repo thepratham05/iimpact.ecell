@@ -91,3 +91,51 @@ footer {
   margin-top: 140px;
   font-size: 0.8em;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .content {
+    width: 80%;
+  }
+
+  .content h2 {
+    font-size: 2em;
+  }
+
+  .content p {
+    font-size: 1em;
+  }
+
+  .buttons a {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    width: 90%;
+  }
+
+  .content h2 {
+    font-size: 1.8em;
+  }
+
+  .content p {
+    font-size: 0.9em;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .buttons a {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
+}
